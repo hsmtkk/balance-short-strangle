@@ -26,7 +26,7 @@ var month int
 
 func init() {
 	nextMonth := time.Now().AddDate(0, 1, 0)
-	Command.Flags().Float64Var(&targetDelta, "delta", config.TARGET_DELTA, "target delta")
+	Command.Flags().Float64Var(&targetDelta, "delta", -config.TARGET_DELTA, "target delta")
 	Command.Flags().IntVar(&year, "year", nextMonth.Year(), "year")
 	Command.Flags().IntVar(&month, "month", int(nextMonth.Month()), "month")
 }

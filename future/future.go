@@ -19,5 +19,5 @@ func Price(baseClient base.Client, year, month int) (int, error) {
 	if err != nil {
 		return 0, err
 	}
-	return int(boardResp.CurrentPrice), nil
+	return int(boardResp.CalcPrice), nil
 }

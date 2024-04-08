@@ -3,7 +3,7 @@ module github.com/hsmtkk/balance-short-strangle
 go 1.22.1
 
 require (
-	github.com/hsmtkk/aukabucomgo v0.0.0-20240407061831-bf43b11670e7
+	github.com/hsmtkk/aukabucomgo v0.0.0-20240408063603-387709a0f857
 	github.com/jedib0t/go-pretty/v6 v6.5.7
 	github.com/spf13/cobra v1.8.0
 )
